@@ -1,3 +1,5 @@
+package Sprint1;
+
 import java.util.Scanner;
 
 class Praktikum1 {

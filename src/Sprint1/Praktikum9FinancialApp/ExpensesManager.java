@@ -1,6 +1,4 @@
-package Praktikum9FinancialApp;
-
-import java.util.Scanner;
+package Sprint1.Praktikum9FinancialApp;
 
 public class ExpensesManager {
     double[] expenses;

@@ -1,4 +1,4 @@
-package Praktikum9FinancialApp;
+package Sprint1.Praktikum9FinancialApp;
 
 public class DinnerAdvisor {
     public void getAdvice(double moneyBeforeSalary, int daysBeforeSalary) {

@@ -1,3 +1,5 @@
+package Sprint1;
+
 public class Praktikum3 {
 
     public static void main(String[] args) {
