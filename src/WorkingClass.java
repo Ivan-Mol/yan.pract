@@ -1,8 +1,6 @@
-public class WorkingClass {
-    public static void main(String[] args) {
+import java.util.Scanner;
 
-    }
+public class WorkingClass {
+
 
 }
-//Начните с префиксного инкремента ++a, затем вычислите значение c как a % b.
-// Третьим шагом вычтите с из a. В конце измените значение b c помощью постфиксного инкремента.
