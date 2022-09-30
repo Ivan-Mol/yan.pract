@@ -1,3 +1,5 @@
+package Sprint2.BankAppRefact;
+
 import java.util.Scanner;
 
 public class Praktikum {
@@ -32,13 +34,13 @@ public class Praktikum {
                 expensesManager.printAllExpenses();
             } else if (command == 5) {
                 System.out.println("Самая большая сумма расходов составила " + expensesManager.findMaxExpense() + " руб.");
-            } else ... { // Добавьте реализацию команды 6 
-						    ... // Вызовите соответствующий метод
-            } else ... { // Добавьте реализацию команды 7 
-                if ... { // Проверьте наличие значений в списке
+            } else if(command == 6) { // Добавьте реализацию команды 6
+                expensesManager.removeAllExpenses();
+            } else if(command == 7) { // Добавьте реализацию команды 7
+                if (!expensesManager.expenses.isEmpty()) { // Проверьте наличие значений в списке
                     System.out.println("Введите трату:");
-                    double expense = ...; // Считайте значение траты
-                  ... // Вызовите соответствующий метод
+                    double expense = scanner.nextDouble(); // Считайте значение траты
+                  expensesManager.removeExpense(expense); // Вызовите соответствующий метод
                 } else{
                     System.out.println("Список трат пуст.");
                 }
@@ -58,9 +60,11 @@ public class Praktikum {
         System.out.println("3 - Ввести трату");
         System.out.println("4 - Показать траты");
         System.out.println("5 - Показать самую большую сумму расходов");
-        // Добавьте новые пункты в меню:
-        ... // "6 - Очистить список трат"
-        ... // "7 - Найти и удалить трату"
+        System.out.println("6 — Очистить список трат");
+        System.out.println("7 — Найти и удалить трату");
         System.out.println("0 - Выход");
+        // Добавьте новые пункты в меню:
+        // "6 - Очистить список трат"
+        // "7 - Найти и удалить трату"
     }
 }
