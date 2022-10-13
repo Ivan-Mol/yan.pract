@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-public class WorkingClass {
-
-
-}
+class WorkingClass {
+    public static void main(String[] args) {
+        Object o = new String[2];
+    }
+} 
